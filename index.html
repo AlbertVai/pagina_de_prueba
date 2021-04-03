@@ -3,8 +3,161 @@
 	<head>
 		<meta charset="utf-8">
 		<title>El Sofa Del Zombie</title>
+		<!--		SLIDER		-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<!-- 		ICONOS		-->
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--		ESTILOS		-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
-		<h1>primer sitio web</h1>
+		<div id="wrapper">
+			<!--		BANNER		-->
+			<div id="banner-wrapper">
+				<header>
+					<div class="header-inner">
+						<a href="index.html" id="logo"> <img src="img/fazt_logo.png" alt="FaztWeb.com"></a>
+						<nav>
+							<a href="#" id="menu-icon"><i class="fa fa-bars"></i></a>
+							<ul>
+								<li>
+									<a href="index.html" class="current">Inicio</a>
+								</li>
+								<li>
+									<a href="#skills">Habilidades</a>
+								</li>
+								<li>
+									<a href="#portfolio">Portafolio</a>
+								</li>
+								<li>
+									<a href="#services">Servicios</a>
+								</li>
+								<li>
+									<a href="#contact">Contacto</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<section class="slide-wrap">
+					<ul class="slider1">
+						<li><img src="img/slider/slider1.jpg" alt="arbol y silla"></li>
+						<li><img src="img/slider/slider2.jpg" alt="arbol"></li>
+						<li><img src="img/slider/slider3.jpg" alt="silla"></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<!--		SKILLS 		-->
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-desktop"></i>
+			</div>
+			<h3>Diseño Web</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-pencil-square-o"></i>
+			</div>
+			<h3>Diseño Grafico</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+
+		<section class="one-third" id="skills">
+			<div class="icon-wrap">
+				<i class="fa fa-file-code-o"></i>
+			</div>
+			<h3>Desarrollo Web</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		<div class="clearfix-padding"></div>
+
+		<!--		PORTFOLIO 		-->
+		<section class="left-col" id="portfolio">
+			<h3>Prtafolio</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec pharetra dui, at vulputate lectus. Phasellus faucibus semper congue. Maecenas et aliquam lectus. Nullam vitae malesuada urna. Aenean ultrices diam sit amet ligula elementum pulvinar. Curabitur consectetur est laoreet mi sollicitudin fringilla. Duis maximus massa vel velit luctus laoreet. Nam.</p>
+		</section>
+		<section class="sidebar">
+			<img src="img/fazt_logo.png">
+		</section>
+		<div class="clearfix-padding"></div>
+
+		<!--		SERVICES 		-->
+		<div class="one-third-padding" id="services">
+			<h3>Nuestros Servicios Uno</h3>
+			<img src="img/image1.png">
+			<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+		</div>
+
+		<div class="one-third-padding" id="services">
+			<h3>Nuestros Servicios Dos</h3>
+			<img src="img/image2.png">
+			<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+		</div>
+
+		<div class="one-third-padding" id="services">
+			<h3>Nuestros Servicios Tres</h3>
+			<img src="img/image3.png">
+			<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+		</div>
+
+		<!--		FOOTER 		-->
+		<footer>
+			<div class="banner-wrapper">
+				<div class="icon-text">
+					<div class="icon-text-icon">
+						<ul class="footer-nav">
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="#skills">Habilidades</a>
+							</li>
+							<li>
+								<a href="#">Portafolio</a>
+							</li>
+							<li>
+								<a href="#">Nuestro Equipo</a>
+							</li>
+							<li>
+								<a href="#">Contacto</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="icon-text-text">
+						<ul class="social">
+							<li>
+								<a href="https://facebook.com/elsofadelzombie" target="_blank"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="mailto: jaagsem@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+							</li>
+							
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		
+		<footer class="second-footer">
+			<p>&copy;<a href="https://www.facebook.com/hosearuberuto" target="_blank">AruSoft</a></p>
+		</footer>
+
+		<!--		SCRIPTS		-->
+		<script>
+			$(document).ready(function(){
+				$('.slider1').bxSlider({
+					mode: 'fade'
+				})
+			})
+		</script>
+		
 	</body>
 </html>
